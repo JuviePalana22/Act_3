@@ -1,0 +1,93 @@
+
+
+<div>
+
+  <nav ngbNav #nav="ngbNav" class="nav-tabs" style="display: flex;">
+
+    <ng-container ngbNavItem>
+      <div style="width: fit-content;">
+        <a ngbNavLink style="color: red;">
+          <img src="../assets/images/prof_icon.png" style="width: 36px; height: auto;" alt="prof_icon">Profile</a>
+      </div>
+      <!-- One -->
+      <ng-template ngbNavContent>
+        <img src="../assets/images/me.jpg" alt="me">
+        <p>
+          <br><b>Name: Juvie Ann A. Palaña</b><br>
+          <br><b>Course: Bachelor of Science in Information Technology.</b><br>
+          <br><b>Year Level and Section: BSIT-3E</b><br>
+          <br><b>Name of School: Eastern Visayas State University (<i>EVSU</i>)</b><br>
+
+          <br><br><b >Address: <i>Barangay Maya, MacArthur, Leyte</i></b>
+          <br><br><b>Dial: <i>09650933592</i> TM</b><br>
+
+        <!-- Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+          master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
+          keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat
+          salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.-->
+        </p>
+      </ng-template>
+    </ng-container>
+
+    <ng-container ngbNavItem>
+      <div style="width: fit-content;">
+        <a ngbNavLink style="color: red;">
+          <img src="../assets/images/gall_icon.png" style="width: 36px; height: auto;" alt="gall_icon">Galllery</a>
+      </div>
+
+      <!-- Two -->
+      <ng-template ngbNavContent>
+        <img src="../assets/images/me.jpg" alt="me">
+        <img src="../assets/images/VioletSky.jpg" alt="VioletSky">
+        <br><img src="../assets/images/BlueBubble.jpg" alt="BlueBubble">
+        <img src="../assets/images/BlueCrack.jpg" alt="BlueCrack"><br>
+        
+        <p>
+
+        <!-- Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko
+          farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts
+          ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar
+          helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson
+          8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester
+          stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.-->
+        </p>
+      </ng-template>
+    </ng-container>
+
+    <!-- Three -->
+    <ng-container ngbNavItem>
+      <div style="width: fit-content;">
+        <a ngbNavLink style="color: red;">
+          <img src="../assets/images/cont_icon.png" style="width: 36px; height: auto;" alt="cont_icon">Contact</a>
+      </div>
+      <ng-template ngbNavContent>
+        <p>
+          <br><br><b>My Contacts are Listed Down Here!!!</b><br><br>
+          <br><br><b>Email: <i>juvieannp@gmail.com</i></b>
+        </p>
+        <!-- <p>Sed commodo, leo at suscipit dictum, quam est porttitor sapien, eget sodales nibh elit id diam. Nulla facilisi.
+          Donec egestas ligula vitae odio interdum aliquet. Duis lectus turpis, luctus eget tincidunt eu, congue et odio.
+          Duis pharetra et nisl at faucibus. Quisque luctus pulvinar arcu, et molestie lectus ultrices et. Sed diam urna,
+          egestas ut ipsum vel, volutpat volutpat neque. Praesent fringilla tortor arcu. Vivamus faucibus nisl enim, nec
+          tristique ipsum euismod facilisis. Morbi ut bibendum est, eu tincidunt odio. Orci varius natoque penatibus et
+          magnis dis parturient montes, nascetur ridiculus mus. Mauris aliquet odio ac lorem aliquet ultricies in eget
+          neque. Phasellus nec tortor vel tellus pulvinar feugiat.</p> -->
+      </ng-template>
+    </ng-container>
+    
+  </nav>
+  
+  <div [ngbNavOutlet]="nav" class="mt-2"></div>
+  <!-- <img src="../assets/images/me.jpg" alt="me">
+
+  <p class="shadow">
+    <b style="background-color:rgb(79, 50, 104);color:#fffb2b">
+    Hi! My name is JUVIE ANN A. PALAÑA.</b>
+  </p>
+  
+  <p class="shadow">
+    <b style="background-color:rgb(79, 50, 104);color:#c9c504">
+    I am a student at<i> Eastern Visayas State University.</i></b>
+  </p>
+  <button mat-raised-button color="primary">Primary</button> -->
+</div>
